@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .dark-mode {
+    background-color: #0f172a;
+    color: white;
+  }
+  
+  .dark-mode .bg-white {
+    background-color: #1e293b;
+  }
+  
+  .dark-mode .text-blue-700 {
+    color: #60a5fa;
+  }
+  
+  .dark-mode a {
+    color: #93c5fd;
+  }
+  
+  .section {
+    scroll-margin-top: 100px;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.6s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
